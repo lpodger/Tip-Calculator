@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/calculate.js"></script>
+</head>
+<body>
+    <section class="menu">
+        <h1 class="align-center">Menu</h1>
+        <div class=container>
+            <div class="items">
+                <h2 class="align-center">Items</h2>
+                <ul>
+                    <li>Fried Potato</li>
+                    <li>Soup in Shoe</li>
+                    <li>Spaghetti Bolognaise (very good)</li>
+                </ul>
+            </div>
+            <div class="price">
+                <h2 class="">Price</h2>
+                <ul>
+                    <li>$8</li>
+                    <li>$15</li>
+                    <li>$40</li>
+                </ul>
+            </div>
+            <div class="add-container">
+                <h2>Add to Order</h2>
+                <div class="add-btns" id="add-btns">
+                    <button id="btn-1">+</button>
+                    <button id="btn-2">+</button>
+                    <button id="btn-3">+</button>
+                </div>
+            </div>
+        </div>
+        <button id="order" class="submit-btn">Order</button>
+    </section>
+    <div class="results">
+        <p id="sum"></p>
+        <p id="tip"></p>
+    <button id="reset-btn" class="hide reset">Reset</button>
+    </div>
+</body>
+</html>
